@@ -3,8 +3,10 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
+import Services from './components/Services';
+
 import Contact from './components/Contact';
+import  Messages from "./components/Messages";
 import Footer from './components/footer';
 import './styles.css';
 
@@ -34,7 +36,10 @@ function App() {
       <Navbar />
       <About />
       <Projects />
-      <Resume />
+
+      <Services />
+
+     <Messages />
       <Footer />
 
       {/* Back to Top Button */}

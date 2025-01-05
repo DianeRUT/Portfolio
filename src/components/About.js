@@ -7,9 +7,9 @@ import { faDatabase, faCode } from '@fortawesome/free-solid-svg-icons';
 function About() {
   return (
     <section id="about" className="about-section">
-      <h2>About Me</h2>
+      <h2>About <span style={{ color:'#64ffda'}}>Me</span></h2>
       <p>
-      Hey there! 👋 I'm Diane INGABIRE RUTAGENGWA, I'm a <strong>Full-Stack Developer</strong> who loves crafting seamless web experiences 🌐, an <strong>AI enthusiast</strong> turning ideas into intelligent solutions 🤖, an <strong>IT Support wizard</strong> solving tech puzzles 🛠️, and a <strong>Digital Marketer</strong> spreading brand magic ✨. I’m all about blending creativity with technology to make cool stuff happen! 🚀
+      My name is <strong>Diane INGABIRE RUTAGENGWA,</strong> And I'm a <strong>Software Developer</strong> who loves crafting seamless web experiences 🌐, an <strong>AI enthusiast</strong> turning ideas into intelligent solutions 🤖, an <strong>IT Support wizard</strong> solving tech puzzles 🛠️, and a <strong>Digital Marketer</strong> spreading brand magic ✨. I’m all about blending creativity with technology to make cool stuff happen! 🚀
       </p>
       <div className="skills-container">
         <h3>Core Skills</h3>
